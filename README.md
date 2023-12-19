@@ -1,26 +1,28 @@
-# yoga
+Welcome to FlexYoga, a user-friendly web application designed to streamline the registration process for yoga classes. This project was developed as part of an internship assignment at Flexmoney, and it leverages the MERN stack to provide a seamless experience for both users and administrators.
 
-- Hello, I have created this beautiful project using the MERN stack as an internship assignment of Flexmoney. In this web app an user can register themselves for the yoga classes. I enjoyed while creating this project as I learned many new things while creating this project such as form validation, connecting the frontend to the backend and deploying the web app online.
+Project Overview
+Frontend Development
+The frontend of FlexYoga is crafted with HTML, CSS, and ReactJS to ensure a visually appealing and intuitive admission form. Special attention has been given to responsiveness, guaranteeing a consistent and distortion-free display across various devices.
 
-- My approach for this project was:-
-1. Create frontend of the admission form using html, css and reactjs.
-2. Make the form responsive so that it does not get distorted in any device.
-3. Create the backend of the form using nodejs, expressjs and mongoDB.
-4. Do the basic validations as stated in the assignment.
-5. Show a "Payment Successful" message when the user is registered.
+Backend Development
+Powered by NodeJS, ExpressJS, and MongoDB, the backend of the form handles data processing and storage. The connection between the frontend and backend is established to facilitate smooth communication and a robust user experience.
 
-- The basic validations which I did in the project are as follows:-
-1. Every input field should be filled by the user.
-2. User name must not be empty.
-3. Age field must be between 18 and 65 years.
-4. Gender should must be specified by the user.
-5. Contact number must consist of 10 digits.
-6. Fees should be exactly equal to 500.
-7. User must select a slot in order to make the payment.
+Basic Validations
+To enhance user data integrity, the following basic validations have been implemented:
 
-- This project can be used in the real world if I add a payment method which would accpet the payment either from the UPI or cards.
+Mandatory Fields: Every input field must be filled out by the user.
+User Name: The user's name must not be empty.
+Age: The age field must contain a value between 18 and 65 years.
+Gender: Users are required to specify their gender.
+Contact Number: The contact number must consist of 10 digits.
+Fees: The fee amount should exactly match 500.
+Slot Selection: Users must choose a slot to proceed with payment.
+Successful Registration
+Upon successful registration, users are greeted with a "Payment Successful" message, providing a positive confirmation of their enrollment.
 
-- You can add the JSON Viewer pro extension to get a better view of the data.
-Link to the extension:- https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc
+Future Enhancements
+This project has the potential for real-world application by incorporating a payment method. Future developments could include integrating payment gateways for UPI or card transactions, making the registration process not only seamless but also financially secure.
 
-![yoga](https://user-images.githubusercontent.com/100675296/217868781-70cc6c45-1ae0-4da3-80c1-aab493955cca.png)
+Here's the page : ![Screenshot (13)](https://github.com/Adit2412/Yoga-assignment/assets/106692808/f4f0fde3-19c5-475c-b181-bb0f65cb6ca4)
+Link:https://yoga-two.vercel.app/
+
